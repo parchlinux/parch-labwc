@@ -1,2 +1,4 @@
 noctalia &
 lxqt-policykit-agent &
+xdg-user-dirs-update &
+{ [ -d /run/archiso ] || grep -q 'archiso' /proc/cmdline; } && parch-welcome &
